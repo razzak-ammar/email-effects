@@ -1,0 +1,20 @@
+[
+    {
+        "sender": "Ammar Razzak",
+        "message": "Who created email?",
+        "body": "Email was created by Ray Tomlinson at the US defense advanced projects agency which is when the @ symbol was created ot direct messages to users.",
+        "time": "Mar 31"
+    },
+    {
+        "sender": "Christopher Bamaca",
+        "message": "What benefit did email serve at its time of creation?",
+        "body": "The creation allowed people to share files, and \"direct message\" in 1965",
+        "time": "Mar 31"
+    },
+    {
+        "sender": "Ammar Razzak",
+        "message": "When did Email become a standard?",
+        "body": "The proposal for email to become a standard was in 1973. It became finished in 1977 by Arpanet. They added features like a <strong>from</strong> field, and the ability to forward emails.",
+        "time": "Mar 31"
+    }
+]

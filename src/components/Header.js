@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <header>
       {/* <p>Conversation with...</p> */}
-      <h3>Email</h3>
+      <h3>Email Effects</h3>
 
       {/* <br /> */}
       <svg

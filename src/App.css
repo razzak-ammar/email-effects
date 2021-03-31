@@ -7,19 +7,21 @@
 body {
 	font-family: sans-serif;
 	background: rgb(13, 10, 52);
+	/* background: greenyellow; */
 	line-height: 1.6;
-	color: white;
 }
 
 header {
+	color: white;
 	display: inline-block;
 	padding: 1rem;
 	margin: 2rem;
 	background: purple;
 	border-radius: 10px;
-	animation: titleAnimate 2s ease-in forwards;
+	animation: titleAnimate 0.5s ease-in forwards;
 	transform: translate(-500px);
 	vertical-align: center;
+	animation-delay: 0ms;
 }
 
 header h3 {
@@ -60,4 +62,54 @@ header p {
 	border-radius: 10px;
 	width: 25%;
 	align-content: flex-end;
+}
+
+.bg-purple {
+	background: darkmagenta;
+	/* background: yellow; */
+	color: black;
+	/* color: white; */
+}
+
+.container {
+	transform: translate(-2000px);
+	animation: containerAnimate 2s ease-in forwards;
+	animation-delay: 0.5s;
+}
+
+@keyframes containerAnimate {
+	to {
+		transform: translate(25px);
+	}
+}
+
+.ab-color {
+	background: greenyellow;
+	height: 100vh;
+}
+
+.ab-color .bg-purple {
+	background: yellow;
+}
+
+.ab-color .text-white {
+	color: black !important;
+}
+
+.ab-color .table-responsive {
+	background: rgb(178, 255, 178);
+}
+
+.ab-color header {
+	background: rgb(255, 0, 221);
+}
+
+.ml-10 {
+	margin-left: 4rem;
+}
+
+.btn-ab {
+	position: absolute;
+	bottom: 2rem;
+	left: 0px;
 }
