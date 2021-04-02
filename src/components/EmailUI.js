@@ -85,7 +85,9 @@ const EmailUI = ({currentEmail, setCurrentEmail}) => {
                   <small>Sent by: {currentEmail.sender}</small>
                   <h5>{currentEmail.message}</h5>
                   <br/>
-                  <p dangerouslySetInnerHTML={createMarkup(currentEmail.body)}></p>
+                 <div className="message-item">
+                 <p dangerouslySetInnerHTML={createMarkup(currentEmail.body)}></p>
+                 </div>
                   </div>
               ) : null} 
             </div>

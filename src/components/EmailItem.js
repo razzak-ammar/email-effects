@@ -30,7 +30,7 @@ const EmailItem = ({sender, message, time, body, onClickEmail, setUnread}) => {
       </td>
       {/* <!-- Message --> */}
       <td>
-        <a class='link' href='javascript: void(0)'>
+        <a class='link' href="!#">
           <span class='text-dark'>{message}</span>
         </a>
       </td>

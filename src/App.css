@@ -113,3 +113,7 @@ header p {
 	bottom: 2rem;
 	left: 0px;
 }
+
+.message-item ul, .message-item li{
+	margin-left: 1rem !important;
+}

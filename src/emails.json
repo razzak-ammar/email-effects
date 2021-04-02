@@ -16,5 +16,27 @@
         "message": "When did Email become a standard?",
         "body": "The proposal for email to become a standard was in 1973. It became finished in 1977 by Arpanet. They added features like a <strong>from</strong> field, and the ability to forward emails.",
         "time": "Mar 31"
+    },
+    {
+        "sender": "Christopher Bamaca",
+        "message": "When did the first email program gain popularity?",
+        "body": "In 1979 the first actual email program began to gain widespread popularity. It was made by 14 year old Shiva Ayyaduari in which she created a program called <strong>email</strong> for the University of Medicine and Dentistry of New Jearsy. <br /> <br /> In 1982, she got the term <strong>email</strong> copyrighted, and alter on services with their own takes on email were popping up.",
+        "time": "April 2"
+    },
+    {
+        "sender": "Ammar Razzak",
+        "message": "What were some impacts or effects of email?",
+        "body": [
+            "<ul> <li> Email largely reduced the amount of traditional mail that was sent. </li> <li>Email is recorded, so the record remains, compared to person-to-person communication which is a hassle to record</li> <li>Email is also accessible from anywhere, unlike text which is tied to a number/app/device, but many email clients allow you login from a web browser anywhere!</li> </ul>"
+        ],
+        "time": "Mar 31"
+    },
+    {
+        "sender": "Christopher Bamaca",
+        "message": "The good have been mentioned, what about the bad effects?",
+        "body": [
+            "<ul> <li>Email reduced the amount fo face-to-face communication. For example, an employee could just email his boss instead of scheduling a time to meet with him face-to-face.</li> <li>Forwarded conversations are too long and can cause the main stuff to be lost. As their is so much metadata included, often reading through a forwarded conversation, you will be skipping so much info, that by accidentally you skipped through a 1 line in the email which was important. </li> </ul>"
+        ],
+        "time": "Mar 31"
     }
 ]
