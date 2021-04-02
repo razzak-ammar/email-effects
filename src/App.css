@@ -110,8 +110,8 @@ header p {
 
 .btn-ab {
 	position: absolute;
-	bottom: 2rem;
-	left: 0px;
+	top: 2rem;
+	right: 1rem;
 }
 
 .message-item ul, .message-item li{
