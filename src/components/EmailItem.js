@@ -3,7 +3,10 @@ const EmailItem = ({sender, message, time, body, onClickEmail, setUnread}) => {
     const clickedOnEmail = () => {
         onClickEmail({sender, message, time, body});
         setUnread(state => {
-            return state - 1
+            if(state >= 1) {
+              return state - 1
+            }
+            return state = 0;
         })
     }
 
