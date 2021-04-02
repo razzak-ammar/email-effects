@@ -30,7 +30,8 @@ const EmailItem = ({sender, message, time, body, onClickEmail, setUnread}) => {
       </td>
       {/* <!-- Message --> */}
       <td>
-        <a class='link' href="!#">
+        {/* eslint-disable-next-line */ }
+        <a class='link' href="#">
           <span class='text-dark'>{message}</span>
         </a>
       </td>
